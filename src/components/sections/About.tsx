@@ -6,23 +6,23 @@ import { portfolioData } from '@/data/portfolio';
 const highlights = [
   {
     icon: BarChart3,
-    title: 'Data Visualization',
-    description: 'Interactive dashboards in Power BI, Tableau, and Looker with KPIs and geospatial analytics'
+    title: 'Business Intelligence',
+    description: 'Expertise in building interactive Power BI and Tableau dashboards using DAX and Power Query'
   },
   {
     icon: Database,
-    title: 'ETL & Analytics',
-    description: 'Advanced ETL pipelines and predictive analytics using Python, PySpark, R, and SQL'
+    title: 'ETL & Cloud Analytics',
+    description: 'Designing automated ETL pipelines using Azure Data Factory and Synapse Analytics'
   },
   {
     icon: TrendingUp,
-    title: 'Performance Optimization',
-    description: 'Improving data accuracy, reporting efficiency, and system reliability across enterprises'
+    title: 'Advanced Analytics',
+    description: 'Transforming high-volume transactional data into structured datasets using Python and SQL'
   },
   {
     icon: Shield,
-    title: 'Data Governance',
-    description: 'Security frameworks including RBAC, GDPR, and CCPA compliance in Agile environments'
+    title: 'Data Modeling',
+    description: 'Strong proficiency in Dimensional Modeling, Star Schemas, and Snowflake schemas'
   }
 ];
 

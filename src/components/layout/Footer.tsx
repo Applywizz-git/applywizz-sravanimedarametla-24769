@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
             viewport={{ once: true }}
             className="text-center md:text-left"
           >
-            <h3 className="text-2xl font-bold text-gradient mb-2">SAMBASIVARAO</h3>
+            <h3 className="text-2xl font-bold text-gradient mb-2">SRAVANI</h3>
             <p className="text-muted-foreground">Data Analytics Excellence</p>
           </motion.div>
 

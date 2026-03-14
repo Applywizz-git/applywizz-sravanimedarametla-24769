@@ -4,7 +4,7 @@ import { Menu, X, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useScrollSpy } from '@/hooks/useScrollSpy';
 import { portfolioData } from '@/data/portfolio';
-import resumePDF from "@/assets/sambashivarao-resume.pdf";
+import resumePDF from "@/assets/sravani-resume.pdf";
 
 const navItems = [
   { id: 'home', label: 'Home' },
@@ -60,7 +60,7 @@ export const Header: React.FC = () => {
             className="text-xl font-bold text-gradient cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
-            SAMBASIVARAO
+            SRAVANI
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -92,7 +92,7 @@ export const Header: React.FC = () => {
 
           {/* Right Side Actions */}
           <div className="flex items-center space-x-4">
-             <a href={resumePDF} download="sambashivarao-resume.pdf">
+             <a href={resumePDF} download="sravani-resume.pdf">
                 <Button
                   variant="outline"
                   size="lg"
@@ -144,7 +144,7 @@ export const Header: React.FC = () => {
                     {item.label}
                   </motion.button>
                 ))}
-                <a href={resumePDF} download="sambashivarao-resume.pdf">
+                <a href={resumePDF} download="sravani-resume.pdf">
                 <Button
                   variant="outline"
                   size="lg"

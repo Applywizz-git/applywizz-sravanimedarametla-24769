@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, MapPin, Phone, Mail, Linkedin, Github } from 'lucide-react';
+import { Send, MapPin, Phone, Mail, Linkedin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -78,12 +78,6 @@ export const Contact: React.FC = () => {
       url: portfolioData.personal.linkedIn,
       color: 'text-blue-600'
     },
-    // {
-    //   icon: Github,
-    //   label: 'GitHub',
-    //   url: portfolioData.personal.github,
-    //   color: 'text-gray-800 dark:text-gray-200'
-    // },
     {
       icon: Mail,
       label: 'Email',

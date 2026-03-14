@@ -6,7 +6,7 @@ import { DataBackground } from '@/components/three/DataBackground';
 import { portfolioData } from '@/data/portfolio';
 import heroBackground from '@/assets/hero-bg.jpg';
 import profile from "@/assets/profile.png";
-import resumePDF from "@/assets/sambashivarao-resume.pdf";
+import resumePDF from "@/assets/sravani-resume.pdf";
 
 const rotatingKeywords = [
   'ETL Pipelines',
@@ -134,7 +134,7 @@ export const Hero: React.FC = () => {
                 <Play className="h-5 w-5 mr-2 group-hover:scale-110 transition-transform" />
                 View Projects
               </Button>
-              <a href={resumePDF} download="sambashivarao-resume.pdf">
+              <a href={resumePDF} download="sravani-resume.pdf">
                 <Button
                   variant="outline"
                   size="lg"
