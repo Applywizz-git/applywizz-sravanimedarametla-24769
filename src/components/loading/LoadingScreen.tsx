@@ -90,38 +90,7 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
             </motion.p>
           </motion.div>
 
-          {/* Language Ring */}
-          <div className="relative w-64 h-64 mx-auto">
-            <motion.div
-              animate={{ rotate: 360 }}
-              transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-              className="absolute inset-0 rounded-full border border-primary/30"
-            />
-            
-            {languages.map((lang, index) => {
-              const angle = (index / languages.length) * 360;
-              const isActive = index === currentLanguage;
-              
-              return (
-                <motion.div
-                  key={lang}
-                  className={`absolute tech-badge ${isActive ? 'bg-primary text-primary-foreground scale-110' : ''}`}
-                  style={{
-                    left: '50%',
-                    top: '50%',
-                    transform: `translate(-50%, -50%) rotate(${angle}deg) translateX(120px) rotate(-${angle}deg)`,
-                  }}
-                  animate={{
-                    scale: isActive ? 1.2 : 1,
-                    opacity: isActive ? 1 : 0.6,
-                  }}
-                  transition={{ duration: 0.3 }}
-                >
-                  {lang}
-                </motion.div>
-              );
-            })}
-          </div>
+
 
           {/* Progress */}
           <div className="space-y-4">

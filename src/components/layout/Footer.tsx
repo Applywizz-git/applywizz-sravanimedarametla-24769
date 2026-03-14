@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
   };
 
   const socialLinks = [
-    // { icon: Github, url: portfolioData.personal.github, label: 'GitHub' },
+
     { icon: Linkedin, url: portfolioData.personal.linkedIn, label: 'LinkedIn' },
     { icon: Mail, url: `mailto:${portfolioData.personal.email}`, label: 'Email' },
   ];
